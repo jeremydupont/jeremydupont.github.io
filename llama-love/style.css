@@ -54,6 +54,7 @@ table {
 
 img{
 	float:left;
+	margin:10px;
 }
 article{
 	width:500px;
@@ -62,5 +63,13 @@ article{
 
 h1{
 	font-family:helvetica;
+	font-size:24px;
 	font-weight:bold;
+	padding:5px;
 }
+h2{
+	font-family:helvetica;
+	color:gray;
+	font-size:12px;
+}
+
