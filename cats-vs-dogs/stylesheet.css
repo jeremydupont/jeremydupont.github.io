@@ -46,3 +46,26 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*---------------------STYLE STARTS HERE------------------*/
+
+li {
+	font-family:Georgia;
+	float:left;
+	margin:20px;
+	list-style-type:disc;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+body{
+	font-family:Georgia;
+	font-size:12px;
+}
+
+h1 {
+	font-family:Georgia;
+	font-weight:bold;
+}
+
