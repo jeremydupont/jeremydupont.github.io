@@ -60,6 +60,7 @@ article{
 	float:left;
 }
 
-p{
-	color:red;
+h1{
+	font-family:helvetica;
+	font-weight:bold;
 }
