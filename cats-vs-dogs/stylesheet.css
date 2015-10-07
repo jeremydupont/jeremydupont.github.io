@@ -48,10 +48,19 @@ table {
 }
 
 /*---------------------STYLE STARTS HERE------------------*/
+header{
+	text-align:center;
+	padding:50px;
+}
 
 body{
+	margin:0 auto;
+	display:block;
+	max-width:60em; /* 900px / 16px = 60em */ 
+	height:1000px;
 	font-family:Georgia;
-	font-size:12px;
+	font-size:100%;
+	text-align:left;
 }
 
 nav li {
@@ -60,7 +69,14 @@ nav li {
 	list-style-type:disc;
 	font-weight:bold;
 	text-transform:uppercase;
-	text-align:center;
+	margin:0 auto;
+	width:20%;
+}
+
+nav a{
+	text-decoration:none;
+	color:black;
+	
 }
 
 nav {
@@ -70,24 +86,23 @@ nav {
 	margin-top:40px
 }
 
+article{
+	float:left;
+	width:40%;
+	margin:5%;
 }
+
 article img{
-	width:250px;
-	float:left;
+	width:300px;
 }
 
-article p{
-	float:left;
-	width:500px;
-}
-
-section{
-	clear:both;
-}
 h1{
 	font-weight:bold;
 }
 
+span{
+	color:red;
+}
 footer{
 	clear:both;
 	border-top:2px solid black;
@@ -95,6 +110,6 @@ footer{
 	margin:20px;
 }
 
-footer h6{
+footer p{
 	float:right;
 }
