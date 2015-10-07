@@ -50,3 +50,55 @@ table {
 	border-spacing: 0;
 }
 
+#site-wrapper{
+	position:relative;
+	background:#EEF5D9;
+}
+
+#top-nav{
+	font-family:helvetica;
+	font-size:8pt;
+	position:absolute;
+		top:0px;
+		left:800px;
+}
+
+div#menu-wrapper{
+	position:relative;
+	background:#603913;
+}
+
+#main-menu li{
+	position:relative;
+		top:0px;
+		left:100px;
+	color:white;
+	font-family:helvetica;
+	font-size:10pt;
+	text-transform:uppercase;
+	background:#603913;
+	float:left;
+	margin:10px;
+	padding:10px;
+}
+
+article#page{
+	clear:left;
+}
+
+aside#sidebar{
+	float:left;
+}
+
+#footer-wrapper{
+	clear:left;
+	position:relative;
+	background:#835734;
+}
+
+#footer-follow{
+	position:absolute;
+	right:500px;	
+}
+
+	
