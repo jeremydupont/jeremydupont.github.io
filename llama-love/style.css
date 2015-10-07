@@ -52,30 +52,39 @@ table {
 
 /* -----------------END RESET---------------- */
 
-img{
-	float:left;
-	margin:10px;
+section {
+  font-family: Helvetica,sans-serif;
+  padding: 20px;
+  margin: 20px;
+  float:center;
 }
+
 article{
-	width:500px;
-	float:left;
+  width: 490px;
+  float:left;
+  margin: 0px 30px 30px 0px;
 }
 
-h1{
-	font-family:helvetica;
-	font-size:24px;
-	font-weight:bold;
-	padding:5px;
-}
-h2{
-	font-family:helvetica;
-	color:gray;
-	font-size:12px;
+img{
+  float:left;
+  margin:0px 10px 10px 0px;
 }
 
-p{
-	font-family:helvetica;
-	font-size:14px;
-	padding:10px;
+article h1{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2em;
+  padding-bottom: 3px;
 }
 
+article h2{
+  font-size: 11px;
+  color: grey;
+  padding-bottom: 20px;
+}
+
+article p {
+  font-size: 13px;
+  line-height: 1.4em;
+  padding-bottom: .5em;
+}
