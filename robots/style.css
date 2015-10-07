@@ -64,37 +64,45 @@ table {
 #site-header img{
 	width:50%;
 }
-#main-menu li{
-	position:relative;
-		top:0px;
-		left:100px;
-	color:white;
-	font-family:helvetica;
-	font-size:10pt;
-	text-transform:uppercase;
-	background:#603913;
-	float:left;
-	margin:10px;
-	padding:10px;
+#top-nav a{
+	text-decoration:none;
+	font-size:10px;
+	padding:3px;
 }
 
-article#page{
-	clear:left;
-}
-
-aside#sidebar{
-	float:left;
-}
-
-#footer-wrapper{
-	clear:left;
-	position:relative;
-	background:#835734;
-}
-
-#footer-follow{
+#top-nav{
 	position:absolute;
-	right:500px;	
+	top:5px;
+	right:80px;
 }
 
+#top-nav span{
+	color:#875c33;
+}
+
+#menu-wrapper{
+	display:inline-block;
+	position:absolute;
+	padding-top:3px;
+	padding-left:180px;
+	background-color:#875c33;
+	height:25px;
+	width:100%;
+}
+
+#main-menu{
+	margin:0 auto;
+	background-color:#875c33;
 	
+}
+#main-menu li{
+	float:left;
+	padding:5px;
+	background-color:#875c33;
+}
+#main-menu li a{
+	text-decoration:none;
+	color:white;
+	text-transform:uppercase;
+	font-size:12px;
+}
