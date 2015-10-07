@@ -50,7 +50,7 @@ table {
 /*---------------------STYLE STARTS HERE------------------*/
 header{
 	text-align:center;
-	padding:50px;
+	padding:25px;
 }
 
 body{
@@ -65,18 +65,18 @@ body{
 
 nav li {
 	float:left;
-	margin:20px;
+	margin-top:15px;
+	margin-left:100px;
 	list-style-type:disc;
 	font-weight:bold;
 	text-transform:uppercase;
-	margin:0 auto;
-	width:20%;
+	text-align:center;
+	position:static;
 }
 
 nav a{
 	text-decoration:none;
 	color:black;
-	
 }
 
 nav {
@@ -110,6 +110,13 @@ footer{
 	margin:20px;
 }
 
-footer p{
+#source{
+	float:left;
+	text-align:left;
+	
+}
+
+#copyright{	
 	float:right;
+	text-align:left;
 }
