@@ -51,23 +51,19 @@ table {
 }
 
 #site-wrapper{
+	background-color:#ecf2d3;
 	position:relative;
-	background:#EEF5D9;
 }
 
-#top-nav{
-	font-family:helvetica;
-	font-size:8pt;
-	position:absolute;
-		top:0px;
-		left:800px;
+#site-header {
+	background-color: #ecf2d3;
+	width: 500px;
+	margin-left:180px;
 }
 
-div#menu-wrapper{
-	position:relative;
-	background:#603913;
+#site-header img{
+	width:50%;
 }
-
 #main-menu li{
 	position:relative;
 		top:0px;
