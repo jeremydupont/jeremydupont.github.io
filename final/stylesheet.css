@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------------------------START STYLE HERE--------------------*/
+
+body {font-family:TrebuchetMS;}
+
+.SplashPage {
+	background-color:#000;
+	height:700px;
+	width:100%;
+}
+.SplashPage h1 {
+	position:relative;
+	padding-top:100px;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:100px;
+	color:#fff;
+	
+}
+/*---------------------------------------------------------------*/
+.TableOfContents {
+	background-color:#222;
+	height:700px;
+}
+
+.TableOfContents h3{
+	position:absolute;
+	padding-top:100px;
+	padding-left:100px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:50px;
+	color:#eee;
+}
+.TableOfContents ol{
+	color:#eee;
+	font-size:20px;
+	list-style-type: circle;
+	position:relative;
+	padding-top:80px;
+	padding-left:500px;
+}
+.TableOfContents li{
+	margin:20px;
+}
+/*---------------------------------------------------------------*/
+.PageOne {
+	background-color:#444;
+	height:700px;
+}
+.PageOne h3 {
+	position:absolute;
+	padding-top:100px;
+	padding-left:100px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:50px;
+	color:#ddd;
+}
+.PageOne p {
+	color:#ddd;
+	line-height: 125%;
+	padding-top:100px;
+	padding-left:700px;
+	padding-right:200px;
+}
+
+.PageOne img{
+	margin-left:50px;
+}
+
+/*---------------------------------------------------------------*/	
+.PageTwo {
+	background-color:#444;
+	height:700px;
+}
+.PageTwo h3 {
+	position:absolute;
+	padding-top:100px;
+	padding-left:100px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:50px;
+	color:#ccc;
+}
+.PageTwo p{
+	color:#ccc;
+	line-height: 125%;
+	padding-top:100px;
+	padding-left:700px;
+	padding-right:200px;
+}
+.PageTwo img{
+    width:50%;
+}
+/*---------------------------------------------------------------*/
+.PageThree {
+	background-color:#555;
+	height:700px;
+}
+.PageThree h3 {
+	position:absolute;
+	padding-top:100px;
+	padding-left:100px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:50px;
+	color:#bbb;
+}
+/*---------------------------------------------------------------*/
+.PageFour {
+	background-color:#888;
+	height:700px;
+}
+.PageFour h3 {
+	position:absolute;
+	padding-top:100px;
+	padding-left:100px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:50px;
+	color:#999;
+}
+/*---------------------------------------------------------------*/
+.PageFive {
+	background-color:yellow;
+	height:700px;
+}
+/*---------------------------------------------------------------*/
+.PageSix {
+	background-color:chartreuse;
+	height:700px;
+}
+/*---------------------------------------------------------------*/
+.PageSeven {
+	background-color:maroon;
+	height:700px;
+}
+/*---------------------------------------------------------------*/
+.PageEight {
+	background-color:orange;
+	height:700px;
+}
+/*---------------------------------------------------------------*/
+.PageNine {
+	background-color:cyan;
+	height:700px;
+}
+/*---------------------------------------------------------------*/
+.PageTen {
+	background-color:brown;
+	height:700px;
+}
+/*---------------------------------------------------------------*/
+.LastPage {
+	background-color:snow;
+	height:700px;
+}
+/*---------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
