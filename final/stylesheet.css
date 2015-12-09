@@ -156,6 +156,18 @@ body {font-family:TrebuchetMS;}
 	font-size:50px;
 	color:#bbb;
 }
+
+.PageThree p{
+		color:#bbb;
+		line-height: 125%;
+		padding-top:100px;
+		padding-left:700px;
+		padding-right:200px;
+}
+.PageThree img{
+    width:32%;
+	margin-left:75px;
+}
 /*---------------------------------------------------------------*/
 .PageFour {
 	background-color:#888;
@@ -170,40 +182,217 @@ body {font-family:TrebuchetMS;}
 	font-size:50px;
 	color:#999;
 }
+.PageFour p{
+	position:absolute;
+		color:#999;
+		line-height: 125%;
+		padding-top:100px;
+		padding-left:750px;
+		padding-right:200px;
+}
+.PageFour img{
+	padding-top:450px;
+    width:50%;
+	margin-left:75px;
+}
 /*---------------------------------------------------------------*/
 .PageFive {
-	background-color:yellow;
+	background-color:#888;
 	height:700px;
+}
+.PageFive h3 {
+	position:absolute;
+	padding-top:100px;
+	padding-left:100px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:50px;
+	color:#999;
+}
+.PageFive ul{
+		color:#999;
+		line-height: 125%;
+		list-style-type: circle;
+		padding-top:100px;
+		padding-left:700px;
+		padding-right:200px;
 }
 /*---------------------------------------------------------------*/
 .PageSix {
-	background-color:chartreuse;
+	background-color:#aaa;
 	height:700px;
+}
+.PageSix h3 {
+	position:absolute;
+	padding-top:100px;
+	padding-left:100px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:50px;
+	color:#777;
+}
+.PageSix p{
+	position:absolute;
+	color:#777;
+	line-height: 125%;
+	list-style-type: circle;
+	padding-top:100px;
+	padding-left:850px;
+	padding-right:100px;
+}
+.PageSix img{
+	padding-top:290px;
+	margin-left:20px;	
 }
 /*---------------------------------------------------------------*/
 .PageSeven {
-	background-color:maroon;
+	background-color:#bbb;
 	height:700px;
+}
+.PageSeven h3 {
+	position:absolute;
+	padding-top:100px;
+	padding-left:100px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:50px;
+	color:#666;
+}
+.PageSeven p{
+	position:absolute;
+	color:#666;
+	line-height:125%;
+	padding-top:100px;
+	padding-left:700px;
+	padding-right:200px;
+}
+.WhatYouSay {
+	color:#666;
+	line-height:125%;
+	list-style-type: circle;
+	padding-top:250px;
+	padding-left:50px;
+	padding-right:20px;
+}
+
+.Translation {
+	color:#666;
+	line-height:125%;
+	list-style-type: circle;
+	padding-top:50px;
+	padding-left:50px;
+	padding-right:20px;
 }
 /*---------------------------------------------------------------*/
 .PageEight {
-	background-color:orange;
+	background-color:#ccc;
 	height:700px;
+}
+.PageEight h3 {
+	position:absolute;
+	text-decoration:line-through;
+	padding-top:100px;
+	padding-left:100px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:50px;
+	color:#555;
+}
+.PageEight p{
+	position:absolute;
+	color:#555;
+	line-height:125%;
+	padding-top:100px;
+	padding-left:850px;
+	padding-right:200px;
+}
+
+.PageEight h4{
+	position:absolute;
+	color:#555;
+	padding-top:300px;
+	padding-left:100px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:200px;
 }
 /*---------------------------------------------------------------*/
 .PageNine {
-	background-color:cyan;
+	background-color:#ddd;
 	height:700px;
+}
+.PageNine h3 {
+	position:absolute;
+	padding-top:100px;
+	padding-left:100px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:50px;
+	color:#444;
+}
+.PageNine p{
+	position:absolute;
+	color:#444;
+	line-height:125%;
+	padding-top:100px;
+	padding-left:850px;
+	padding-right:100px;
+}
+
+.PageNine img{
+	padding-top:200px;
+	padding-left:50px;
+	width:60%;
 }
 /*---------------------------------------------------------------*/
 .PageTen {
-	background-color:brown;
+	background-color:#eee;
 	height:700px;
+}
+.PageTen h3 {
+	position:absolute;
+	padding-top:100px;
+	padding-left:100px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:50px;
+	color:#333;
+}
+.PageTen p{
+	position:absolute;
+	color:#333;
+	line-height:125%;
+	padding-top:300px;
+	padding-left:750px;
+	padding-right:150px;
+}
+
+.PageTen h4 {
+	position:absolute;
+	color:#333;
+	padding-top:200px;
+	padding-left:70px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:450px;
 }
 /*---------------------------------------------------------------*/
 .LastPage {
-	background-color:snow;
+	background-color:#fff;;
 	height:700px;
+}
+.LastPage h1 {
+	position:relative;
+	padding-top:100px;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:100px;
+	color:#000;
+}
+
+footer{
+	text-align:center;
 }
 /*---------------------------------------------------------------*/
 
